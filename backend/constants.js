@@ -3,7 +3,7 @@ const REQUEST_GLOBAL_LIMIT = 3;
 const REQUEST_USER_LIMIT = 1;
 
 /* TTL */
-const DEFAULT_TTL = 60 * 60; // 2 minutes
+const DEFAULT_TTL = 60 * 2; // 2 minutes
 const REQUEST_LIMIT_TTL = 60; // 1 minute
 
 /* REDIS KEYS */
