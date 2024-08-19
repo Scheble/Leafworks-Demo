@@ -1,0 +1,24 @@
+/* REQUEST LIMITS */
+const REQUEST_GLOBAL_LIMIT = 3;
+const REQUEST_USER_LIMIT = 1;
+
+/* TTL */
+const DEFAULT_TTL = 60 * 60; // 2 minutes
+const REQUEST_LIMIT_TTL = 60; // 1 minute
+
+/* REDIS KEYS */
+const USER_KEY = 'user';
+const TICKETS_COLLABORATOS_KEY = 'tickets:collaborators';
+const REQUEST_GLOBAL_LIMIT_KEY = 'limit:global';
+const REQUEST_USER_LIMIT_KEY = 'limit:user';
+
+export {
+  DEFAULT_TTL,
+  REQUEST_GLOBAL_LIMIT,
+  REQUEST_GLOBAL_LIMIT_KEY,
+  REQUEST_LIMIT_TTL,
+  REQUEST_USER_LIMIT,
+  REQUEST_USER_LIMIT_KEY,
+  TICKETS_COLLABORATOS_KEY,
+  USER_KEY,
+};
